@@ -1,0 +1,4 @@
+interface:
+  display_name: "爆款拆解选品员工"
+  short_description: "先拆爆款短视频和账号，再提取商品机会并判断是否入池。"
+  default_prompt: "请作为爆款拆解选品员工，先拆解爆款短视频和账号，再提取商品机会。"

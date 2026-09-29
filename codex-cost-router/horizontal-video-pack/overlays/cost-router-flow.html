@@ -1,0 +1,12 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Cost Router Flow</title>
+<style>
+*{box-sizing:border-box}body{margin:0;background:#06070b;color:#edf3ff;font-family:system-ui,-apple-system,"Segoe UI",sans-serif;overflow:hidden}.stage{height:100vh;padding:86px 100px;background:linear-gradient(135deg,#06070b,#101421)}h1{font-size:56px;margin:0 0 70px}.wrap{display:grid;grid-template-columns:1fr 1.2fr 1fr;gap:34px;align-items:center}.box{border:1px solid rgba(130,165,255,.3);border-radius:8px;padding:34px;background:rgba(255,255,255,.055);min-height:240px}.center{min-height:360px;background:linear-gradient(160deg,rgba(72,112,255,.22),rgba(142,84,255,.15));box-shadow:0 0 50px rgba(95,122,255,.18)}.label{font-size:24px;color:#8bb7ff}.big{font-size:44px;font-weight:800;margin-top:36px}.items{display:grid;gap:18px;margin-top:26px}.item{font-size:26px;color:#d6def2;padding:14px 18px;border-left:3px solid #8bb7ff;background:rgba(255,255,255,.05);animation:glow 4s ease-in-out infinite}.item:nth-child(2){animation-delay:.6s}.item:nth-child(3){animation-delay:1.2s}.item:nth-child(4){animation-delay:1.8s}.line{height:3px;background:linear-gradient(90deg,#6fa8ff,#b983ff);position:relative;overflow:hidden}.line:after{content:"";position:absolute;inset:0;background:linear-gradient(90deg,transparent,#fff,transparent);animation:move 2s linear infinite}@keyframes move{from{transform:translateX(-100%)}to{transform:translateX(100%)}}@keyframes glow{50%{border-color:#b983ff;box-shadow:0 0 22px rgba(139,183,255,.18)}}
+</style>
+</head>
+<body><main class="stage"><h1>Cost Router：先判断，再执行</h1><div class="wrap"><div class="box"><div class="label">INPUT</div><div class="big">用户任务</div></div><div><div class="line"></div><div class="box center"><div class="label">ROUTING</div><div class="big">Cost Router</div><div class="items"><div class="item">复杂度评估</div><div class="item">模型 / 推理建议</div><div class="item">权限范围建议</div><div class="item">分阶段执行策略</div></div></div><div class="line"></div></div><div class="box"><div class="label">OUTPUT</div><div class="big">Codex 执行 Prompt</div></div></div></main></body>
+</html>

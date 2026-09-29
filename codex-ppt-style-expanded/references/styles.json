@@ -1,0 +1,838 @@
+[
+  {
+    "id": "clinical-calm",
+    "name": "臨床清晰",
+    "audience": "醫療 醫院 護理 主管 clinical medical",
+    "template_id": "infographic-engine",
+    "palette": [
+      "F6FAFA",
+      "173D43",
+      "2A8C8B",
+      "E4F0EF"
+    ],
+    "palette_roles": [
+      "background",
+      "text",
+      "accent",
+      "secondary"
+    ],
+    "material": "乾淨霧白與低彩度青綠，少量右側醫療情境插畫",
+    "layout": "資料頁採清楚網格，對照頁兩欄；裝飾遠離證據",
+    "avoid": "不生成檢驗值、病歷、儀表數據或醫療圖示文字",
+    "typography": {
+      "title_pt": 36,
+      "body_pt": 25,
+      "note_pt": 15,
+      "preferred_font": "Microsoft JhengHei",
+      "fallback": "Noto Sans CJK TC"
+    },
+    "layout_reference": "style-expansion.md#共用版型座標",
+    "background_prompt": "生成 16:9 無字簡報背景。乾淨霧白與低彩度青綠，少量右側醫療情境插畫。配色 F6FAFA,173D43,2A8C8B,E4F0EF。根據本頁版型保留指定的標題與內文安全區，主體不侵入文字區。不要文字、字母、數字、Logo、浮水印或圖表標籤。不生成檢驗值、病歷、儀表數據或醫療圖示文字。",
+    "origin": "Derived recipe; not an upstream named deck style",
+    "source_url": "https://github.com/freestylefly/awesome-gpt-image-2"
+  },
+  {
+    "id": "academic-editorial",
+    "name": "學術期刊編輯",
+    "audience": "學術 研究 論文 教授 academic research",
+    "template_id": "document-publishing",
+    "palette": [
+      "FAFAF7",
+      "202C3C",
+      "365C85",
+      "D8DFE6"
+    ],
+    "palette_roles": [
+      "background",
+      "text",
+      "accent",
+      "secondary"
+    ],
+    "material": "紙張質感極淡，細線分區，少量概念視覺",
+    "layout": "研究問題、方法、結果以不同版型呈現，圖表區大面積留白",
+    "avoid": "不生成引用、公式、座標或假論文頁面",
+    "typography": {
+      "title_pt": 36,
+      "body_pt": 25,
+      "note_pt": 15,
+      "preferred_font": "Microsoft JhengHei",
+      "fallback": "Noto Sans CJK TC"
+    },
+    "layout_reference": "style-expansion.md#共用版型座標",
+    "background_prompt": "生成 16:9 無字簡報背景。紙張質感極淡，細線分區，少量概念視覺。配色 FAFAF7,202C3C,365C85,D8DFE6。根據本頁版型保留指定的標題與內文安全區，主體不侵入文字區。不要文字、字母、數字、Logo、浮水印或圖表標籤。不生成引用、公式、座標或假論文頁面。",
+    "origin": "Derived recipe; not an upstream named deck style",
+    "source_url": "https://github.com/freestylefly/awesome-gpt-image-2"
+  },
+  {
+    "id": "friendly-clay",
+    "name": "柔和黏土 3D",
+    "audience": "教學 入門 衛教 學生 education 3D",
+    "template_id": "3d-collectible-toy",
+    "palette": [
+      "FBF6EC",
+      "263D38",
+      "92AD9A",
+      "E6B4A5"
+    ],
+    "palette_roles": [
+      "background",
+      "text",
+      "accent",
+      "secondary"
+    ],
+    "material": "圓潤黏土物件，柔和側光，低彩度",
+    "layout": "概念頁左文右圖，流程頁原生節點，資料頁減少 3D",
+    "avoid": "不生成玩具包裝標籤，不以可愛圖形取代科學證據",
+    "typography": {
+      "title_pt": 36,
+      "body_pt": 25,
+      "note_pt": 15,
+      "preferred_font": "Microsoft JhengHei",
+      "fallback": "Noto Sans CJK TC"
+    },
+    "layout_reference": "style-expansion.md#共用版型座標",
+    "background_prompt": "生成 16:9 無字簡報背景。圓潤黏土物件，柔和側光，低彩度。配色 FBF6EC,263D38,92AD9A,E6B4A5。根據本頁版型保留指定的標題與內文安全區，主體不侵入文字區。不要文字、字母、數字、Logo、浮水印或圖表標籤。不生成玩具包裝標籤，不以可愛圖形取代科學證據。",
+    "origin": "Derived recipe; not an upstream named deck style",
+    "source_url": "https://github.com/freestylefly/awesome-gpt-image-2"
+  },
+  {
+    "id": "japanese-paper",
+    "name": "日系和紙",
+    "audience": "人文 品牌 教育 溫暖 japanese paper",
+    "template_id": "illustration-art-style",
+    "palette": [
+      "F7F3E9",
+      "303B38",
+      "778C75",
+      "B88461"
+    ],
+    "palette_roles": [
+      "background",
+      "text",
+      "accent",
+      "secondary"
+    ],
+    "material": "細緻和紙、柔和植物或日常物件、自然光",
+    "layout": "非對稱留白，章節頁安靜，內容頁清楚雙欄",
+    "avoid": "避免濃重紙紋、假日文字或装飾過多",
+    "typography": {
+      "title_pt": 36,
+      "body_pt": 25,
+      "note_pt": 15,
+      "preferred_font": "Microsoft JhengHei",
+      "fallback": "Noto Sans CJK TC"
+    },
+    "layout_reference": "style-expansion.md#共用版型座標",
+    "background_prompt": "生成 16:9 無字簡報背景。細緻和紙、柔和植物或日常物件、自然光。配色 F7F3E9,303B38,778C75,B88461。根據本頁版型保留指定的標題與內文安全區，主體不侵入文字區。不要文字、字母、數字、Logo、浮水印或圖表標籤。避免濃重紙紋、假日文字或装飾過多。",
+    "origin": "Derived recipe; not an upstream named deck style",
+    "source_url": "https://github.com/freestylefly/awesome-gpt-image-2"
+  },
+  {
+    "id": "premium-brand",
+    "name": "精品典雅",
+    "audience": "品牌 公司 高端 提案 brand luxury",
+    "template_id": "brand-identity-package",
+    "palette": [
+      "F5F0E8",
+      "302D29",
+      "9D8055",
+      "D9CEC0"
+    ],
+    "palette_roles": [
+      "background",
+      "text",
+      "accent",
+      "secondary"
+    ],
+    "material": "溫潤石材、細膩金屬與柔光，極少量點綴",
+    "layout": "大標題、低密度內容、比較頁克制網格",
+    "avoid": "不生成 Logo、品牌字樣或金色正文",
+    "typography": {
+      "title_pt": 36,
+      "body_pt": 25,
+      "note_pt": 15,
+      "preferred_font": "Microsoft JhengHei",
+      "fallback": "Noto Sans CJK TC"
+    },
+    "layout_reference": "style-expansion.md#共用版型座標",
+    "background_prompt": "生成 16:9 無字簡報背景。溫潤石材、細膩金屬與柔光，極少量點綴。配色 F5F0E8,302D29,9D8055,D9CEC0。根據本頁版型保留指定的標題與內文安全區，主體不侵入文字區。不要文字、字母、數字、Logo、浮水印或圖表標籤。不生成 Logo、品牌字樣或金色正文。",
+    "origin": "Derived recipe; not an upstream named deck style",
+    "source_url": "https://github.com/freestylefly/awesome-gpt-image-2"
+  },
+  {
+    "id": "futuristic-light",
+    "name": "明亮未來科技",
+    "audience": "AI 科技 工程 平台 tech technology",
+    "template_id": "concept-product-breakdown",
+    "palette": [
+      "F7FAFF",
+      "182A45",
+      "3D6BEB",
+      "D7E9F8"
+    ],
+    "palette_roles": [
+      "background",
+      "text",
+      "accent",
+      "secondary"
+    ],
+    "material": "白色空間、精密幾何、淡藍光與透明材質",
+    "layout": "架構頁用原生線條，內容頁非對稱，資料頁白底",
+    "avoid": "不生成假程式碼、規格數值或不可編輯架構標籤",
+    "typography": {
+      "title_pt": 36,
+      "body_pt": 25,
+      "note_pt": 15,
+      "preferred_font": "Microsoft JhengHei",
+      "fallback": "Noto Sans CJK TC"
+    },
+    "layout_reference": "style-expansion.md#共用版型座標",
+    "background_prompt": "生成 16:9 無字簡報背景。白色空間、精密幾何、淡藍光與透明材質。配色 F7FAFF,182A45,3D6BEB,D7E9F8。根據本頁版型保留指定的標題與內文安全區，主體不侵入文字區。不要文字、字母、數字、Logo、浮水印或圖表標籤。不生成假程式碼、規格數值或不可編輯架構標籤。",
+    "origin": "Derived recipe; not an upstream named deck style",
+    "source_url": "https://github.com/freestylefly/awesome-gpt-image-2"
+  },
+  {
+    "id": "cinematic-dark",
+    "name": "深色電影敘事",
+    "audience": "演講 發表 願景 cinematic story",
+    "template_id": "scene-storytelling",
+    "palette": [
+      "101B28",
+      "F5F4ED",
+      "6ED8D0",
+      "DFA766"
+    ],
+    "palette_roles": [
+      "background",
+      "text",
+      "accent",
+      "secondary"
+    ],
+    "material": "暗色電影場景，邊緣光，視覺焦點在一側",
+    "layout": "少量大字、章節全景、證據頁使用清晰淺色容器",
+    "avoid": "避免高光侵入文字區或低對比正文",
+    "typography": {
+      "title_pt": 36,
+      "body_pt": 25,
+      "note_pt": 15,
+      "preferred_font": "Microsoft JhengHei",
+      "fallback": "Noto Sans CJK TC"
+    },
+    "layout_reference": "style-expansion.md#共用版型座標",
+    "background_prompt": "生成 16:9 無字簡報背景。暗色電影場景，邊緣光，視覺焦點在一側。配色 101B28,F5F4ED,6ED8D0,DFA766。根據本頁版型保留指定的標題與內文安全區，主體不侵入文字區。不要文字、字母、數字、Logo、浮水印或圖表標籤。避免高光侵入文字區或低對比正文。",
+    "origin": "Derived recipe; not an upstream named deck style",
+    "source_url": "https://github.com/freestylefly/awesome-gpt-image-2"
+  },
+  {
+    "id": "nature-science",
+    "name": "自然科普",
+    "audience": "環境 生態 科普 教育 nature science",
+    "template_id": "nature-science-poster",
+    "palette": [
+      "F5F3E8",
+      "263D31",
+      "608662",
+      "C6A36A"
+    ],
+    "palette_roles": [
+      "background",
+      "text",
+      "accent",
+      "secondary"
+    ],
+    "material": "自然標本感、細膩植物攝影或科普插畫",
+    "layout": "現象頁圖文並列，機制頁原生流程，資料頁留白",
+    "avoid": "不生成物種名稱、比例尺、數據或虛构精確解剖",
+    "typography": {
+      "title_pt": 36,
+      "body_pt": 25,
+      "note_pt": 15,
+      "preferred_font": "Microsoft JhengHei",
+      "fallback": "Noto Sans CJK TC"
+    },
+    "layout_reference": "style-expansion.md#共用版型座標",
+    "background_prompt": "生成 16:9 無字簡報背景。自然標本感、細膩植物攝影或科普插畫。配色 F5F3E8,263D31,608662,C6A36A。根據本頁版型保留指定的標題與內文安全區，主體不侵入文字區。不要文字、字母、數字、Logo、浮水印或圖表標籤。不生成物種名稱、比例尺、數據或虛构精確解剖。",
+    "origin": "Derived recipe; not an upstream named deck style",
+    "source_url": "https://github.com/freestylefly/awesome-gpt-image-2"
+  },
+  {
+    "id": "ink-humanities",
+    "name": "水墨人文",
+    "audience": "文化 歷史 人文 藝術 classical ink",
+    "template_id": "ink-double-exposure-poster",
+    "palette": [
+      "F4F0E7",
+      "242927",
+      "8B4A3A",
+      "B8B4A6"
+    ],
+    "palette_roles": [
+      "background",
+      "text",
+      "accent",
+      "secondary"
+    ],
+    "material": "克制水墨、淡遠山、少量朱紅，留白",
+    "layout": "章節頁大留白，內容頁現代網格，時間線原生",
+    "avoid": "不生成書法、印章文字或讓墨塊遮擋內容",
+    "typography": {
+      "title_pt": 36,
+      "body_pt": 25,
+      "note_pt": 15,
+      "preferred_font": "Microsoft JhengHei",
+      "fallback": "Noto Sans CJK TC"
+    },
+    "layout_reference": "style-expansion.md#共用版型座標",
+    "background_prompt": "生成 16:9 無字簡報背景。克制水墨、淡遠山、少量朱紅，留白。配色 F4F0E7,242927,8B4A3A,B8B4A6。根據本頁版型保留指定的標題與內文安全區，主體不侵入文字區。不要文字、字母、數字、Logo、浮水印或圖表標籤。不生成書法、印章文字或讓墨塊遮擋內容。",
+    "origin": "Derived recipe; not an upstream named deck style",
+    "source_url": "https://github.com/freestylefly/awesome-gpt-image-2"
+  },
+  {
+    "id": "architectural-space",
+    "name": "建築空間",
+    "audience": "設計 空間 建築 城市 architecture",
+    "template_id": "architecture-space",
+    "palette": [
+      "F3F0EB",
+      "32383C",
+      "9A7758",
+      "C7D1D1"
+    ],
+    "palette_roles": [
+      "background",
+      "text",
+      "accent",
+      "secondary"
+    ],
+    "material": "建築攝影、自然日光、幾何秩序、材質細節",
+    "layout": "封面空間大圖，案例圖文，方案比較兩欄",
+    "avoid": "不生成尺寸、標示或未經驗證的建築平面資訊",
+    "typography": {
+      "title_pt": 36,
+      "body_pt": 25,
+      "note_pt": 15,
+      "preferred_font": "Microsoft JhengHei",
+      "fallback": "Noto Sans CJK TC"
+    },
+    "layout_reference": "style-expansion.md#共用版型座標",
+    "background_prompt": "生成 16:9 無字簡報背景。建築攝影、自然日光、幾何秩序、材質細節。配色 F3F0EB,32383C,9A7758,C7D1D1。根據本頁版型保留指定的標題與內文安全區，主體不侵入文字區。不要文字、字母、數字、Logo、浮水印或圖表標籤。不生成尺寸、標示或未經驗證的建築平面資訊。",
+    "origin": "Derived recipe; not an upstream named deck style",
+    "source_url": "https://github.com/freestylefly/awesome-gpt-image-2"
+  },
+  {
+    "id": "documentary-photo",
+    "name": "紀實攝影",
+    "audience": "社會 護理 公益 案例 人物 photography",
+    "template_id": "realistic-photography",
+    "palette": [
+      "F9F7F3",
+      "25333C",
+      "427C87",
+      "D7C8B5"
+    ],
+    "palette_roles": [
+      "background",
+      "text",
+      "accent",
+      "secondary"
+    ],
+    "material": "自然攝影、真實生活氣氛、柔和景深",
+    "layout": "照片聚焦單側，案例與引言留空白文字區",
+    "avoid": "生成照片標示為情境示意，不當作真實事件或個案證據",
+    "typography": {
+      "title_pt": 36,
+      "body_pt": 25,
+      "note_pt": 15,
+      "preferred_font": "Microsoft JhengHei",
+      "fallback": "Noto Sans CJK TC"
+    },
+    "layout_reference": "style-expansion.md#共用版型座標",
+    "background_prompt": "生成 16:9 無字簡報背景。自然攝影、真實生活氣氛、柔和景深。配色 F9F7F3,25333C,427C87,D7C8B5。根據本頁版型保留指定的標題與內文安全區，主體不侵入文字區。不要文字、字母、數字、Logo、浮水印或圖表標籤。生成照片標示為情境示意，不當作真實事件或個案證據。",
+    "origin": "Derived recipe; not an upstream named deck style",
+    "source_url": "https://github.com/freestylefly/awesome-gpt-image-2"
+  },
+  {
+    "id": "bold-poster",
+    "name": "大字海報",
+    "audience": "演講 創意 發表 活動 poster creative",
+    "template_id": "poster-layout-system",
+    "palette": [
+      "F9F4E8",
+      "202020",
+      "E65F38",
+      "387F87"
+    ],
+    "palette_roles": [
+      "background",
+      "text",
+      "accent",
+      "secondary"
+    ],
+    "material": "高對比色塊、幾何剪貼、邊緣裝飾",
+    "layout": "大字封面與核心句，內頁改用低密度網格",
+    "avoid": "不要生成人工字形、海報文案、標語或數字",
+    "typography": {
+      "title_pt": 36,
+      "body_pt": 25,
+      "note_pt": 15,
+      "preferred_font": "Microsoft JhengHei",
+      "fallback": "Noto Sans CJK TC"
+    },
+    "layout_reference": "style-expansion.md#共用版型座標",
+    "background_prompt": "生成 16:9 無字簡報背景。高對比色塊、幾何剪貼、邊緣裝飾。配色 F9F4E8,202020,E65F38,387F87。根據本頁版型保留指定的標題與內文安全區，主體不侵入文字區。不要文字、字母、數字、Logo、浮水印或圖表標籤。不要生成人工字形、海報文案、標語或數字。",
+    "origin": "Derived recipe; not an upstream named deck style",
+    "source_url": "https://github.com/freestylefly/awesome-gpt-image-2"
+  },
+  {
+    "id": "bauhaus-geometric",
+    "name": "包浩斯幾何",
+    "audience": "設計、創新、概念提案 Design, innovation and concepts",
+    "template_id": "poster-layout-system",
+    "palette": [
+      "F5EEDC",
+      "202020",
+      "D94A32",
+      "E7B82F"
+    ],
+    "palette_roles": [
+      "background",
+      "text",
+      "accent",
+      "secondary"
+    ],
+    "material": "包浩斯幾何構成：原色圓形、方形、三角形、理性網格與大面積米白，平面色塊，非拼貼攝影",
+    "layout": "非對稱幾何構成，封面大字，內頁以模組網格組織",
+    "avoid": "不生成虛構數據、Logo、尺寸或政治符號",
+    "typography": {
+      "title_pt": 36,
+      "body_pt": 25,
+      "note_pt": 15,
+      "preferred_font": "Microsoft JhengHei",
+      "fallback": "Noto Sans CJK TC"
+    },
+    "layout_reference": "style-expansion.md#共用版型座標",
+    "background_prompt": "生成 16:9 無字簡報背景。包浩斯幾何構成：原色圓形、方形、三角形、理性網格與大面積米白，平面色塊，非拼貼攝影。非對稱幾何構成，封面大字，內頁以模組網格組織。配色 F5EEDC,202020,D94A32,E7B82F。所有文字區保持空白，不要字母、數字、Logo 或浮水印。",
+    "origin": "Original recipe inspired by publicly documented presentation aesthetics; no external template assets copied",
+    "source_url": "https://slidesgo.com/theme/bauhaus"
+  },
+  {
+    "id": "memphis-playful",
+    "name": "孟菲斯活力",
+    "audience": "工作坊、教育、活動 Workshops, education and events",
+    "template_id": "poster-layout-system",
+    "palette": [
+      "FFF6E7",
+      "282448",
+      "F58B42",
+      "7979D8"
+    ],
+    "palette_roles": [
+      "background",
+      "text",
+      "accent",
+      "secondary"
+    ],
+    "material": "孟菲斯設計：橘、紫、薄荷綠，波浪、點陣、鋸齒與活潑不規則形狀，平面圖像",
+    "layout": "中央標題周圍分散有節奏的裝飾，內頁保留乾淨內容區",
+    "avoid": "不生成虛構數據、Logo、尺寸或政治符號",
+    "typography": {
+      "title_pt": 36,
+      "body_pt": 25,
+      "note_pt": 15,
+      "preferred_font": "Microsoft JhengHei",
+      "fallback": "Noto Sans CJK TC"
+    },
+    "layout_reference": "style-expansion.md#共用版型座標",
+    "background_prompt": "生成 16:9 無字簡報背景。孟菲斯設計：橘、紫、薄荷綠，波浪、點陣、鋸齒與活潑不規則形狀，平面圖像。中央標題周圍分散有節奏的裝飾，內頁保留乾淨內容區。配色 FFF6E7,282448,F58B42,7979D8。所有文字區保持空白，不要字母、數字、Logo 或浮水印。",
+    "origin": "Original recipe inspired by publicly documented presentation aesthetics; no external template assets copied",
+    "source_url": "https://slidesgo.com/theme/orange-memphis"
+  },
+  {
+    "id": "technical-blueprint",
+    "name": "工程藍圖",
+    "audience": "工程、系統、技術規劃 Engineering, systems and technical planning",
+    "template_id": "concept-product-breakdown",
+    "palette": [
+      "103D67",
+      "FFFFFF",
+      "7ECDE4",
+      "275A80"
+    ],
+    "palette_roles": [
+      "background",
+      "text",
+      "accent",
+      "secondary"
+    ],
+    "material": "深藍工程製圖紙、細白線、淡網格、等角投影的模組與連接線，沒有尺寸數值",
+    "layout": "中央或斜向技術物件與線框，原生標籤對齊各模組",
+    "avoid": "不生成虛構數據、Logo、尺寸或政治符號",
+    "typography": {
+      "title_pt": 36,
+      "body_pt": 25,
+      "note_pt": 15,
+      "preferred_font": "Microsoft JhengHei",
+      "fallback": "Noto Sans CJK TC"
+    },
+    "layout_reference": "style-expansion.md#共用版型座標",
+    "background_prompt": "生成 16:9 無字簡報背景。深藍工程製圖紙、細白線、淡網格、等角投影的模組與連接線，沒有尺寸數值。中央或斜向技術物件與線框，原生標籤對齊各模組。配色 103D67,FFFFFF,7ECDE4,275A80。所有文字區保持空白，不要字母、數字、Logo 或浮水印。",
+    "origin": "Original recipe inspired by publicly documented presentation aesthetics; no external template assets copied",
+    "source_url": "https://www.slidescarnival.com/template/valentine-free-presentation-template/234"
+  },
+  {
+    "id": "neo-brutalist",
+    "name": "新粗獷主義",
+    "audience": "產品發表、創意提案、觀點演講 Product launches, creative pitches and opinion talks",
+    "template_id": "poster-layout-system",
+    "palette": [
+      "F5F2E9",
+      "171717",
+      "D6FF3F",
+      "8C7CFF"
+    ],
+    "palette_roles": [
+      "background",
+      "text",
+      "accent",
+      "secondary"
+    ],
+    "material": "新粗獷平面設計：粗黑框、硬邊陰影、螢光萊姆綠與紫色、極大黑體、直接有力的矩形結構",
+    "layout": "大字跨欄、硬邊卡片、強烈但可讀的階層；不使用做舊雜誌拼貼",
+    "avoid": "不生成虛構數據、Logo、尺寸或政治符號",
+    "typography": {
+      "title_pt": 36,
+      "body_pt": 25,
+      "note_pt": 15,
+      "preferred_font": "Microsoft JhengHei",
+      "fallback": "Noto Sans CJK TC"
+    },
+    "layout_reference": "style-expansion.md#共用版型座標",
+    "background_prompt": "生成 16:9 無字簡報背景。新粗獷平面設計：粗黑框、硬邊陰影、螢光萊姆綠與紫色、極大黑體、直接有力的矩形結構。大字跨欄、硬邊卡片、強烈但可讀的階層；不使用做舊雜誌拼貼。配色 F5F2E9,171717,D6FF3F,8C7CFF。所有文字區保持空白，不要字母、數字、Logo 或浮水印。",
+    "origin": "Original recipe inspired by publicly documented presentation aesthetics; no external template assets copied",
+    "source_url": "https://slidesgo.com/brutalist"
+  },
+  {
+    "id": "graphite-research",
+    "short_code": "HW01",
+    "name": "石墨研究筆記",
+    "name_en": "Graphite research notebook",
+    "audience": "研究方法、結構與觀察 handdrawn handwriting 手繪 手寫 Research methods and observation",
+    "palette": [
+      "F7F8F6",
+      "30383D",
+      "8096A7",
+      "DBDDDD"
+    ],
+    "palette_roles": [
+      "background",
+      "text",
+      "accent",
+      "secondary"
+    ],
+    "material": "可見石墨深淺與細排線，冷白紙、極少藍色重點",
+    "layout": "主圖剖面或觀察細節置中，短註記圍繞；不要黃紙、水彩與大量裝飾",
+    "avoid": "正式標題、內文、引用、數值與流程標籤不生成在背景中",
+    "typography": {
+      "title_pt": 36,
+      "body_pt": 25,
+      "note_pt": 15,
+      "preferred_font": "Microsoft JhengHei",
+      "handwritten_option": "DFKai-SB only if installed and glyphs verified",
+      "fallback": "Use an installed Traditional Chinese font"
+    },
+    "layout_reference": "handdraw-styles.md",
+    "background_prompt": "用途：16:9 簡報無字背景。媒材：可見石墨深淺與細排線，冷白紙、極少藍色重點。本頁內容與圖文留白位置依大綱設定。主圖剖面或觀察細節置中，短註記圍繞；不要黃紙、水彩與大量裝飾。不生成文字、字母、數字、Logo 或浮水印，正式文字由 PPT 原生物件加入。",
+    "background_prompt_en": "Create a text-free 16:9 slide background. Medium: Fine pressure-sensitive graphite lines, crosshatching, cool white paper, tiny muted blue accents. Use the page brief for subject, composition and text-safe space. Leave titles, captions, citations and formal diagram labels out of the image; add them as native PowerPoint objects.",
+    "origin": "Original SlideWeave recipe; numbered discovery concept inspired by yang0/handraw-style; no upstream assets or prompts copied",
+    "source_url": "https://github.com/yang0/handraw-style",
+    "model_workflow": "image25-workflow.md"
+  },
+  {
+    "id": "colored-pencil-journal",
+    "short_code": "HW02",
+    "name": "色鉛筆手帳",
+    "name_en": "Colored-pencil journal",
+    "audience": "學習紀錄、生活與反思 handdrawn handwriting 手繪 手寫 Learning journals and reflection",
+    "palette": [
+      "FCF8EF",
+      "3E4941",
+      "819977",
+      "DC927B"
+    ],
+    "palette_roles": [
+      "background",
+      "text",
+      "accent",
+      "secondary"
+    ],
+    "material": "紙紋露底、短筆觸與色鉛筆疊色，鼠尾草綠和珊瑚點綴",
+    "layout": "不對稱筆記構圖；小插畫沿邊緣，正文區乾淨；不要水彩濕邊或照片拼貼",
+    "avoid": "正式標題、內文、引用、數值與流程標籤不生成在背景中",
+    "typography": {
+      "title_pt": 36,
+      "body_pt": 25,
+      "note_pt": 15,
+      "preferred_font": "Microsoft JhengHei",
+      "handwritten_option": "DFKai-SB only if installed and glyphs verified",
+      "fallback": "Use an installed Traditional Chinese font"
+    },
+    "layout_reference": "handdraw-styles.md",
+    "background_prompt": "用途：16:9 簡報無字背景。媒材：紙紋露底、短筆觸與色鉛筆疊色，鼠尾草綠和珊瑚點綴。本頁內容與圖文留白位置依大綱設定。不對稱筆記構圖；小插畫沿邊緣，正文區乾淨；不要水彩濕邊或照片拼貼。不生成文字、字母、數字、Logo 或浮水印，正式文字由 PPT 原生物件加入。",
+    "background_prompt_en": "Create a text-free 16:9 slide background. Medium: Visible paper tooth, short layered colored-pencil strokes, sage and coral accents. Use the page brief for subject, composition and text-safe space. Leave titles, captions, citations and formal diagram labels out of the image; add them as native PowerPoint objects.",
+    "origin": "Original SlideWeave recipe; numbered discovery concept inspired by yang0/handraw-style; no upstream assets or prompts copied",
+    "source_url": "https://github.com/yang0/handraw-style",
+    "model_workflow": "image25-workflow.md"
+  },
+  {
+    "id": "crayon-story",
+    "short_code": "HW03",
+    "name": "蠟筆故事",
+    "name_en": "Wax-crayon story",
+    "audience": "入門教學、親子與故事 handdrawn handwriting 手繪 手寫 Beginner teaching and stories",
+    "palette": [
+      "FFFEFA",
+      "303A50",
+      "3264B0",
+      "EBC54B"
+    ],
+    "palette_roles": [
+      "background",
+      "text",
+      "accent",
+      "secondary"
+    ],
+    "material": "蠟筆粗線、斷筆與摩擦顆粒，簡化角色和明亮色塊",
+    "layout": "一頁一個故事動作，主圖橫向展開配大字；不要寫實陰影與密集小字",
+    "avoid": "正式標題、內文、引用、數值與流程標籤不生成在背景中",
+    "typography": {
+      "title_pt": 36,
+      "body_pt": 25,
+      "note_pt": 15,
+      "preferred_font": "Microsoft JhengHei",
+      "handwritten_option": "DFKai-SB only if installed and glyphs verified",
+      "fallback": "Use an installed Traditional Chinese font"
+    },
+    "layout_reference": "handdraw-styles.md",
+    "background_prompt": "用途：16:9 簡報無字背景。媒材：蠟筆粗線、斷筆與摩擦顆粒，簡化角色和明亮色塊。本頁內容與圖文留白位置依大綱設定。一頁一個故事動作，主圖橫向展開配大字；不要寫實陰影與密集小字。不生成文字、字母、數字、Logo 或浮水印，正式文字由 PPT 原生物件加入。",
+    "background_prompt_en": "Create a text-free 16:9 slide background. Medium: Broken wax-crayon strokes, rubbing texture, broad simple forms, cobalt and sunflower colors. Use the page brief for subject, composition and text-safe space. Leave titles, captions, citations and formal diagram labels out of the image; add them as native PowerPoint objects.",
+    "origin": "Original SlideWeave recipe; numbered discovery concept inspired by yang0/handraw-style; no upstream assets or prompts copied",
+    "source_url": "https://github.com/yang0/handraw-style",
+    "model_workflow": "image25-workflow.md"
+  },
+  {
+    "id": "chalk-classroom",
+    "short_code": "HW04",
+    "name": "粉筆黑板",
+    "name_en": "Chalk classroom",
+    "audience": "投影教學、概念推導 handdrawn handwriting 手繪 手寫 Projected teaching and concepts",
+    "palette": [
+      "173A33",
+      "F4F3E9",
+      "E6CE83",
+      "8EBEBB"
+    ],
+    "palette_roles": [
+      "background",
+      "text",
+      "accent",
+      "secondary"
+    ],
+    "material": "霧面深綠黑板、白粉筆顆粒，淡黃和天藍重點",
+    "layout": "主概念居中，推導按閱讀方向展開；文字維持高對比，正式公式與箭頭用原生物件",
+    "avoid": "正式標題、內文、引用、數值與流程標籤不生成在背景中",
+    "typography": {
+      "title_pt": 36,
+      "body_pt": 25,
+      "note_pt": 15,
+      "preferred_font": "Microsoft JhengHei",
+      "handwritten_option": "DFKai-SB only if installed and glyphs verified",
+      "fallback": "Use an installed Traditional Chinese font"
+    },
+    "layout_reference": "handdraw-styles.md",
+    "background_prompt": "用途：16:9 簡報無字背景。媒材：霧面深綠黑板、白粉筆顆粒，淡黃和天藍重點。本頁內容與圖文留白位置依大綱設定。主概念居中，推導按閱讀方向展開；文字維持高對比，正式公式與箭頭用原生物件。不生成文字、字母、數字、Logo 或浮水印，正式文字由 PPT 原生物件加入。",
+    "background_prompt_en": "Create a text-free 16:9 slide background. Medium: Matte forest-green blackboard, dusty white chalk, pale yellow and blue highlights. Use the page brief for subject, composition and text-safe space. Leave titles, captions, citations and formal diagram labels out of the image; add them as native PowerPoint objects.",
+    "origin": "Original SlideWeave recipe; numbered discovery concept inspired by yang0/handraw-style; no upstream assets or prompts copied",
+    "source_url": "https://github.com/yang0/handraw-style",
+    "model_workflow": "image25-workflow.md"
+  },
+  {
+    "id": "fineliner-editorial",
+    "short_code": "HW05",
+    "name": "鋼筆編輯插畫",
+    "name_en": "Fineliner editorial",
+    "audience": "人文專題、觀點與介紹 handdrawn handwriting 手繪 手寫 Editorial topics and introductions",
+    "palette": [
+      "FFFFFF",
+      "25292B",
+      "BD6141",
+      "EBE7DF"
+    ],
+    "palette_roles": [
+      "background",
+      "text",
+      "accent",
+      "secondary"
+    ],
+    "material": "細鋼筆線與疏密排線，黑白為主搭鐵鏽橙專色",
+    "layout": "圖文偏心配置、單一概念隱喻；不要滿頁拼貼、粉彩水洗或粗卡通線",
+    "avoid": "正式標題、內文、引用、數值與流程標籤不生成在背景中",
+    "typography": {
+      "title_pt": 36,
+      "body_pt": 25,
+      "note_pt": 15,
+      "preferred_font": "Microsoft JhengHei",
+      "handwritten_option": "DFKai-SB only if installed and glyphs verified",
+      "fallback": "Use an installed Traditional Chinese font"
+    },
+    "layout_reference": "handdraw-styles.md",
+    "background_prompt": "用途：16:9 簡報無字背景。媒材：細鋼筆線與疏密排線，黑白為主搭鐵鏽橙專色。本頁內容與圖文留白位置依大綱設定。圖文偏心配置、單一概念隱喻；不要滿頁拼貼、粉彩水洗或粗卡通線。不生成文字、字母、數字、Logo 或浮水印，正式文字由 PPT 原生物件加入。",
+    "background_prompt_en": "Create a text-free 16:9 slide background. Medium: Spare fineliner ink contours, varied hatching, white negative space, one rust-orange spot color. Use the page brief for subject, composition and text-safe space. Leave titles, captions, citations and formal diagram labels out of the image; add them as native PowerPoint objects.",
+    "origin": "Original SlideWeave recipe; numbered discovery concept inspired by yang0/handraw-style; no upstream assets or prompts copied",
+    "source_url": "https://github.com/yang0/handraw-style",
+    "model_workflow": "image25-workflow.md"
+  },
+  {
+    "id": "marker-sketchnote",
+    "short_code": "HW06",
+    "name": "麥克筆視覺筆記",
+    "name_en": "Marker sketchnote",
+    "audience": "工作坊、重點整理與討論 handdrawn handwriting 手繪 手寫 Workshops and synthesis",
+    "palette": [
+      "FFFFFF",
+      "273333",
+      "B6DBB5",
+      "E9DF79"
+    ],
+    "palette_roles": [
+      "background",
+      "text",
+      "accent",
+      "secondary"
+    ],
+    "material": "黑色麥克筆粗細線、薄荷與檸檬色局部重點",
+    "layout": "概念節點或三步驟展開，留出標籤空間；正式流程線與文字用原生物件，不畫滿版塗鴉",
+    "avoid": "正式標題、內文、引用、數值與流程標籤不生成在背景中",
+    "typography": {
+      "title_pt": 36,
+      "body_pt": 25,
+      "note_pt": 15,
+      "preferred_font": "Microsoft JhengHei",
+      "handwritten_option": "DFKai-SB only if installed and glyphs verified",
+      "fallback": "Use an installed Traditional Chinese font"
+    },
+    "layout_reference": "handdraw-styles.md",
+    "background_prompt": "用途：16:9 簡報無字背景。媒材：黑色麥克筆粗細線、薄荷與檸檬色局部重點。本頁內容與圖文留白位置依大綱設定。概念節點或三步驟展開，留出標籤空間；正式流程線與文字用原生物件，不畫滿版塗鴉。不生成文字、字母、數字、Logo 或浮水印，正式文字由 PPT 原生物件加入。",
+    "background_prompt_en": "Create a text-free 16:9 slide background. Medium: Confident thick-thin felt-tip lines, sparse mint and lemon marker highlights. Use the page brief for subject, composition and text-safe space. Leave titles, captions, citations and formal diagram labels out of the image; add them as native PowerPoint objects.",
+    "origin": "Original SlideWeave recipe; numbered discovery concept inspired by yang0/handraw-style; no upstream assets or prompts copied",
+    "source_url": "https://github.com/yang0/handraw-style",
+    "model_workflow": "image25-workflow.md"
+  },
+  {
+    "id": "risograph-duotone",
+    "short_code": "HW07",
+    "name": "雙色孔版印刷",
+    "name_en": "Duotone risograph",
+    "audience": "文化活動、創意提案 handdrawn handwriting 手繪 手寫 Cultural events and creative pitches",
+    "palette": [
+      "F6F0E5",
+      "164B99",
+      "F0523D",
+      "D9D0BD"
+    ],
+    "palette_roles": [
+      "background",
+      "text",
+      "accent",
+      "secondary"
+    ],
+    "material": "雙專色疊印、細顆粒與微幅套印偏移",
+    "layout": "幾何主體與大留白；套印偏移只作用於插畫，文字與數據維持銳利",
+    "avoid": "正式標題、內文、引用、數值與流程標籤不生成在背景中",
+    "typography": {
+      "title_pt": 36,
+      "body_pt": 25,
+      "note_pt": 15,
+      "preferred_font": "Microsoft JhengHei",
+      "handwritten_option": "DFKai-SB only if installed and glyphs verified",
+      "fallback": "Use an installed Traditional Chinese font"
+    },
+    "layout_reference": "handdraw-styles.md",
+    "background_prompt": "用途：16:9 簡報無字背景。媒材：雙專色疊印、細顆粒與微幅套印偏移。幾何主體與大留白；套印偏移只作用於插畫，文字與數據維持銳利。主體、動作與圖文留白依本頁大綱設定。不生成標題、內文、引用、數值、Logo 或正式圖解標籤，這些以 PPT 原生物件加入。",
+    "background_prompt_en": "Create a text-free 16:9 slide background. Medium: Two ink colors on ivory paper, fine print grain, small registration offsets and overlapping ink. Use the page brief for subject, action, composition and text-safe space. Leave headings, body copy, citations, numbers and formal diagram labels out of the image; add them as native PowerPoint objects.",
+    "origin": "Original SlideWeave recipe; numbered discovery concept inspired by yang0/handraw-style; no upstream assets or prompts copied",
+    "source_url": "https://github.com/yang0/handraw-style",
+    "model_workflow": "image25-workflow.md"
+  },
+  {
+    "id": "cut-paper-collage",
+    "short_code": "HW08",
+    "name": "手工剪紙拼貼",
+    "name_en": "Hand-cut paper collage",
+    "audience": "故事教學、社區與人文 handdrawn handwriting 手繪 手寫 Storytelling, community and humanities",
+    "palette": [
+      "F5EDD9",
+      "39271B",
+      "BB6647",
+      "71836A"
+    ],
+    "palette_roles": [
+      "background",
+      "text",
+      "accent",
+      "secondary"
+    ],
+    "material": "纖維紙邊、不規則剪形、霧面色紙與淺層投影",
+    "layout": "以少量紙層建立敘事場景，保留平整文字區；正文不放在碎紙縫隙",
+    "avoid": "正式標題、內文、引用、數值與流程標籤不生成在背景中",
+    "typography": {
+      "title_pt": 36,
+      "body_pt": 25,
+      "note_pt": 15,
+      "preferred_font": "Microsoft JhengHei",
+      "handwritten_option": "DFKai-SB only if installed and glyphs verified",
+      "fallback": "Use an installed Traditional Chinese font"
+    },
+    "layout_reference": "handdraw-styles.md",
+    "background_prompt": "用途：16:9 簡報無字背景。媒材：纖維紙邊、不規則剪形、霧面色紙與淺層投影。以少量紙層建立敘事場景，保留平整文字區；正文不放在碎紙縫隙。主體、動作與圖文留白依本頁大綱設定。不生成標題、內文、引用、數值、Logo 或正式圖解標籤，這些以 PPT 原生物件加入。",
+    "background_prompt_en": "Create a text-free 16:9 slide background. Medium: Fibrous torn edges, uneven hand-cut shapes, matte terracotta and sage paper layers, shallow shadows. Use the page brief for subject, action, composition and text-safe space. Leave headings, body copy, citations, numbers and formal diagram labels out of the image; add them as native PowerPoint objects.",
+    "origin": "Original SlideWeave recipe; numbered discovery concept inspired by yang0/handraw-style; no upstream assets or prompts copied",
+    "source_url": "https://github.com/yang0/handraw-style",
+    "model_workflow": "image25-workflow.md"
+  },
+  {
+    "id": "single-panel-cartoon",
+    "short_code": "HW09",
+    "name": "極簡單格漫畫",
+    "name_en": "Minimalist single-panel cartoon",
+    "audience": "演講開場、觀點與概念反思 handdrawn handwriting 手繪 手寫 Talk openings, viewpoints and reflection",
+    "palette": [
+      "FFFFFF",
+      "202020",
+      "E7CF85",
+      "E5E5E5"
+    ],
+    "palette_roles": [
+      "background",
+      "text",
+      "accent",
+      "secondary"
+    ],
+    "material": "黑色細墨線、大量白底、極少灰階與淡色重點",
+    "layout": "單一場景呈現一個情境反差；不預設多格分鏡，不把研究結果變成虛构數據",
+    "avoid": "正式標題、內文、引用、數值與流程標籤不生成在背景中",
+    "typography": {
+      "title_pt": 36,
+      "body_pt": 25,
+      "note_pt": 15,
+      "preferred_font": "Microsoft JhengHei",
+      "handwritten_option": "DFKai-SB only if installed and glyphs verified",
+      "fallback": "Use an installed Traditional Chinese font"
+    },
+    "layout_reference": "handdraw-styles.md",
+    "background_prompt": "用途：16:9 簡報無字背景。媒材：黑色細墨線、大量白底、極少灰階與淡色重點。單一場景呈現一個情境反差；不預設多格分鏡，不把研究結果變成虛构數據。主體、動作與圖文留白依本頁大綱設定。不生成標題、內文、引用、數值、Logo 或正式圖解標籤，這些以 PPT 原生物件加入。",
+    "background_prompt_en": "Create a text-free 16:9 slide background. Medium: Lively fine ink contours, generous white space, sparse gray wash and one subtle accent; a single situational visual contrast. Use the page brief for subject, action, composition and text-safe space. Leave headings, body copy, citations, numbers and formal diagram labels out of the image; add them as native PowerPoint objects.",
+    "origin": "Original SlideWeave recipe; numbered discovery concept inspired by yang0/handraw-style; no upstream assets or prompts copied",
+    "source_url": "https://github.com/yang0/handraw-style",
+    "model_workflow": "image25-workflow.md"
+  }
+]

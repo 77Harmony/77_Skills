@@ -1,0 +1,12 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Before After</title>
+<style>
+*{box-sizing:border-box}body{margin:0;background:#06070b;color:#eef3ff;font-family:system-ui,-apple-system,"Segoe UI",sans-serif;overflow:hidden}.stage{height:100vh;padding:82px 100px;background:radial-gradient(circle at 15% 20%,rgba(255,80,140,.12),transparent 32%),radial-gradient(circle at 84% 68%,rgba(111,168,255,.2),transparent 34%),#06070b}.title{font-size:56px;font-weight:820;margin-bottom:58px}.cols{display:grid;grid-template-columns:1fr 1fr;gap:36px}.panel{height:610px;border-radius:8px;padding:40px;border:1px solid rgba(255,255,255,.12);background:rgba(255,255,255,.045)}.bad{border-color:rgba(255,120,160,.32)}.good{border-color:rgba(120,183,255,.42);box-shadow:0 0 48px rgba(91,141,255,.12)}.kicker{font-size:26px;color:#9fb0cf}.head{font-size:48px;font-weight:820;margin:24px 0 44px}.row{font-size:28px;margin:22px 0;padding:18px 20px;background:rgba(255,255,255,.055);border-left:4px solid rgba(255,130,160,.65);animation:fade 5s ease-in-out infinite}.good .row{border-left-color:#80b7ff}.good .row:nth-child(4){animation-delay:.5s}.good .row:nth-child(5){animation-delay:1s}.result{margin-top:48px;font-size:34px;font-weight:760}.bad .result{color:#ff9ab8}.good .result{color:#91c3ff}@keyframes fade{50%{transform:translateX(8px);background:rgba(255,255,255,.085)}}
+</style>
+</head>
+<body><main class="stage"><div class="title">直接执行 vs 先路由</div><section class="cols"><div class="panel bad"><div class="kicker">BEFORE</div><div class="head">直接执行</div><div class="row">目标模糊</div><div class="row">上下文过大</div><div class="row">权限过宽</div><div class="row">反复试错</div><div class="result">成本不可控</div></div><div class="panel good"><div class="kicker">AFTER</div><div class="head">先路由</div><div class="row">任务拆分</div><div class="row">范围收窄</div><div class="row">模型匹配</div><div class="row">分阶段执行</div><div class="result">更省 token，更可控</div></div></section></main></body>
+</html>
